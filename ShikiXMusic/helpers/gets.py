@@ -9,7 +9,7 @@ def get_url(message_1: Message) -> Union[str, None]:
     if message_1.reply_to_message:
         messages.append(message_1.reply_to_message)
 
-    text = ""
+    text = "" 
     offset = None
     length = None
 
