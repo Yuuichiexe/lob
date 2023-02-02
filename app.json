@@ -1,13 +1,13 @@
 {
   "name": "ShikiXMusic",
   "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by Otazuki & Gtash.",
   "keywords": [
     "music", 
     "voicechat", 
     "telegram"
   ],
-  "repository": "https://github.com/TeamDaisyX/ShikiXMusic",
+  "repository": "https://github.com/Awesome-Gtash/ShikiXMusic",
   "stack": "container",
   "buildpacks": [
    {
@@ -21,7 +21,7 @@
    }   
   ],        
   "env": {
-    "SESSION_NAME": {
+    "STRING_SESSION": {
       "description": "Pyrogram session string",
       "required": true
     },
@@ -41,14 +41,14 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "DaisySupport_Official"
+      "value": "Shiki_SupporChat"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
       "value": "ShikiXMusic v0.1"
     },
-    "ASSISTANT_NAME": {
+    "ASSISTANT_USERNAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
       "required": true
     },    
@@ -60,7 +60,7 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "DaisyXupdates"
+      "value": "ShikiXupdates"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
