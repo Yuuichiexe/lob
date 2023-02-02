@@ -9,7 +9,7 @@ from ShikiXMusic.services.queues import queues
 client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
 pytgcalls = PyTgCalls(client)
 
-
+ 
 @pytgcalls.on_stream_end()
 async def on_stream_end(client: PyTgCalls, update: Update) -> None:
     chat_id = update.chat_id
