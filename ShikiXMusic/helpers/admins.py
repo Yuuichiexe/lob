@@ -8,7 +8,7 @@ from ShikiXMusic.function.admins import set
 
 async def get_administrators(chat: Chat) -> List[int]:
     get = gett(chat.id)
-
+ 
     if get:
         return get
     else:
